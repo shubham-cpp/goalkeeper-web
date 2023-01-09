@@ -3,10 +3,13 @@ An interactive app to track your long term goals and habits for a better you (We
 
 # Steps to run locally
 
-1. Clone the repository `https://github.com/azrael3199/goalkeeper-web.git`.
-2. cd into the `goalkeeper-web` folder and install the dependencies with `yarn install`.
-3. Run the project with `yarn dev`.
-4. Follow the localhost link given in the terminal to the app on browser
+```bash
+$ git clone https://github.com/azrael3199/goalkeeper-web.git
+$ cd goalkeeper-web
+$ pnpm install # or npm/yarn install
+$ pnpm dev # or npm/yarn dev
+```
+- Follow the localhost link given in the terminal to the app on browser
 
 # Contributing
 
