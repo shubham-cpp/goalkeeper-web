@@ -1,6 +1,6 @@
 ---
 name: Change Request
-about: This Issue requests a change that is neither related to a feature nor a bug
+about: This Issue requests a change or addition that is neither related to a feature nor a bug
 title: "[CHANGE]"
 labels: ''
 assignees: ''
