@@ -8,5 +8,6 @@ jobs:
     - uses: actions/setup-node@v2
     - run: |
         npm install -g pnpm
+        pnpm install
         pnpm run build
         pnpm test
