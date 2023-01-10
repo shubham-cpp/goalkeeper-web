@@ -11,6 +11,10 @@ $ pnpm dev
 ```
 - Follow the localhost link given in the terminal to the app on browser
 
+# Current Roadmap
+
+To see our latest feature list and progress, checkout our [ROADMAP.md](https://github.com/azrael3199/goalkeeper-web/blob/main/docs/ROADMAP.md)
+
 # Contributing
 
 Fork the repository to your own Github ID and then clone it: https://docs.github.com/en/get-started/quickstart/fork-a-repo
