@@ -6,8 +6,8 @@ An interactive app to track your long term goals and habits for a better you (We
 ```bash
 $ git clone https://github.com/azrael3199/goalkeeper-web.git
 $ cd goalkeeper-web
-$ pnpm install # or npm/yarn install
-$ pnpm dev # or npm/yarn dev
+$ pnpm install
+$ pnpm dev
 ```
 - Follow the localhost link given in the terminal to the app on browser
 
