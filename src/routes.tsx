@@ -1,9 +1,9 @@
-import Sample from './Sample'
+import Login from './pages/Login'
 
 const routes = [
   {
     path: '/',
-    element: <Sample />,
+    element: <Login />,
   },
 ]
 
