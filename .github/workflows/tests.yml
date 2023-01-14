@@ -6,8 +6,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - uses: actions/setup-node@v2
-    - run: |
-        npm install -g pnpm
-        pnpm install
-        pnpm run build
-        pnpm test
+    - run: npm install -g pnpm
+    - run: pnpm install
+    - run: pnpm lint
+    - run: pnpm run build
+    - run: pnpm test
