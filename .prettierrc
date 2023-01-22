@@ -6,6 +6,10 @@
   "semi": false,
   "newline-before-return": true,
   "arrowParens": "avoid",
-  "no-duplicate-variable": [true, "check-parameters"],
-  "no-var-keyword": true
+  "no-duplicate-variable": [
+    true,
+    "check-parameters"
+  ],
+  "no-var-keyword": true,
+  "endOfLine": "lf"
 }
