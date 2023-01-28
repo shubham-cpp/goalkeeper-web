@@ -5,22 +5,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-    - uses: actions/checkout@v2
+      uses: actions/checkout@v2
     
     - name: Setup Node
-    - uses: actions/setup-node@v2
+      uses: actions/setup-node@v2
     
     - name: Install PNPM
-    - run: npm install -g pnpm
+      run: npm install -g pnpm
     
     - name: Install Deps
-    - run: pnpm install
+      run: pnpm install
     
     - name: Run Lint
-    - run: pnpm lint
+      run: pnpm lint
     
     - name: Run Tests
-    - run: pnpm test
+      run: pnpm test
     
     - name: Code Coverage Report
       uses: irongut/CodeCoverageSummary@v1.3.0
@@ -36,4 +36,4 @@ jobs:
         thresholds: '60 80'
     
     - name: Build App
-    - run: pnpm run build
+      run: pnpm run build
